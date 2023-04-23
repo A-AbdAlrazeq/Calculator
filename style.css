@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+}
+
+.top {
+  width: 1000px;
+  margin: auto;
+  background-color: #faebd7;
+  color: #d2691e;
+  padding: 5px;
+}
+
+.nav {
+  display: flex;
+  height: 80px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.nav ul {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.nav h1 {
+  font-size: 2.5rem;
+}
+
+.nav a {
+  color: coral;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+.nav a:hover {
+  color: burlywood;
+}
+
+#calculator {
+  background-color: #222;
+  width: 208px;
+  padding: 16px;
+  margin: 0 auto;
+  position: relative;
+  top: 5px;
+}
+
+#display {
+  color: #fff;
+  font-size: 2.5rem;
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.row {
+  height: 4rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+button {
+  font-size: 1.8rem;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: #666;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: #999;
+}
+.HoverClass1:hover {
+  color: black !important;
+  background-color: #999 !important;
+}
+.HoverClass2:hover {
+  color: white !important;
+  background-color: #999 !important;
+}
+.HoverClass3:hover {
+  color: white !important;
+  background-color: black !important;
+}
+
+.operator {
+  background-color: darkorange;
+}
+
+.operator:active {
+  background-color: orange;
+}
+
+#equals {
+  width: 100%;
+  border-radius: 1.5rem;
+  background-color: #ccc;
+  color: #222;
+}
+
+#equals:active {
+  background-color: #eee;
+}
